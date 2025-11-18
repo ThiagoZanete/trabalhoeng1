@@ -29,32 +29,3 @@ class System {
 
 
 
-
-
-
-
-/*
-#ifndef SYSTEM_H_
-#define SYSTEM_H_
-
-#include <iostream>
-
-class System {
-    double value;
-
-    public:
-        // Construtor System(double initialValue)
-        System(double = 0.);
-
-        // Métodos conforme UML
-        const double getValue() const;
-        
-        //essencial para funcionar
-        bool setValue(double); 
-};
-
-//System(Sistem&);
-//consts system operator = (const System&);
-//virtual Ŝystem();
-
-#endif*/

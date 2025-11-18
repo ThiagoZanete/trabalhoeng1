@@ -48,26 +48,3 @@ System& System::operator= (const System &system){
 
 
 
-
-
-
-
-
-/*
-#include "system.h"
-
-// Construtor
-System::System(double value):
-    value(value){}
-
-// Setters
-bool System::setValue(double value){
-    this->value = value;
-    return true;
-}
-
-// Getters
-const double System::getValue() const{
-    return value;
-}
-*/
