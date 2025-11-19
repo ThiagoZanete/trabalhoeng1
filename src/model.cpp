@@ -1,22 +1,46 @@
 #include "model.h"
 #include "flow.h"
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
 // Construtor
-Model::Model(){}
+Model::Model() : systems(), flows() {}
+Model::Model(const string& name) :  name(name), systems(), flows(){}
 
 // Destrutor
 Model::~Model(){
-    // Deleta todos os flows alocados
-    for (Flow* f : flows) {
-        delete f;
-    }
-    // Deleta todos os systems alocados
-    for (System* s : systems) {
-        delete s;
-    }
+}
+
+Model::Model(const Model& model){
+    name = model.name;
+    systems = model.systems;
+    flows = model.flows;
+}
+
+Model& Model::operator= (const Model &model){
+    if(this == &model)
+        return *this;
+    name = model.name;
+    systems = model.systems;
+    flows = model.flows;
+
+    return *this;
+}
+
+//get e seter
+const list<System*>& Model::getSystems() const {
+    return systems;
+}
+const list<Flow*>& Model::getFlows() const {
+    return flows;
+}
+const string& Model::getName() const {
+    return name;
+}
+void Model::setName(const string& n) {
+    name = n;
 }
 
 // add polimórfico para System e Flow
@@ -28,6 +52,25 @@ bool Model::add(Flow *flow){
     flows.push_back(flow);
     return true;
 }
+
+//remove
+bool Model::remove(System* s) {
+    auto it = find(systems.begin(), systems.end(), s);
+    if (it != systems.end()) {
+        systems.erase(it);
+        return true;
+    }
+    return false;
+}
+bool Model::remove(Flow* f) {
+    auto it = find(flows.begin(), flows.end(), f);
+    if (it != flows.end()) {
+        flows.erase(it);
+        return true;
+    }
+    return false;
+}
+
 
 // Executar
 void Model::run(int startTime, int endTime){

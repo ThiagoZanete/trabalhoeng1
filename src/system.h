@@ -11,15 +11,16 @@ class System {
     double value;
 
     public:
-        System(string = "", double = 0.);
+        System();
+        System(const string& name, double value);
+        System(double value);
         System(const System& system);
-        virtual ~System();
 
+        virtual ~System();
         System& operator=(const System& system);
         
         const string getName() const;
         bool setName(string name);
-        
         const double getValue() const;
         bool setValue(double value);
 };

@@ -8,19 +8,22 @@ using namespace std;
 
 class Flow{
     // Atributos conforme UML
-    System *source;
-    System *target;
-
-    public:
-        Flow(System* source = nullptr, System* target = nullptr);
+    protected:
+        std::string name;
+        System *source;
+        System *target;
         
+    public:
+        Flow();
+        Flow(const std::string& name, System* source = nullptr, System* target = nullptr);
+        Flow(const Flow&);
+
         virtual ~Flow();
-        Flow(const Flow&) = delete;
+        Flow& operator=(const Flow&);
 
+        const std::string& getName() const;   
+        bool setName(const std::string& n);
 
-        Flow& operator=(const Flow&) = delete;
-
-        // Métodos Get/Set conforme UML
         System* getSource() const;
         bool setSource(System*);
 

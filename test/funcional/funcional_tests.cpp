@@ -10,8 +10,9 @@ using namespace std;
 // Classe conforme Caso de Uso (Fig 13) e UML
 class Exponencial : public Flow {
     public:
+        Exponencial(): Flow() {}
         Exponencial(System *source, System *target): 
-            Flow(source, target){}
+            Flow(name, source, target){}
             
         // Método 'execute' conforme UML
         double execute(){
@@ -22,10 +23,13 @@ class Exponencial : public Flow {
 void exponentialTest(){
     Model model;
 
-    System* pop1 = new System("pop1",100.);
-    System* pop2 = new System("pop2",0.);
+    System* pop1 = new System("pop1",100);
+    System* pop2 = new System("pop2",0);
 
-    Flow* flow = new Exponencial(pop1, pop2);
+    Exponencial* flow = new Exponencial();
+    flow->setSource(pop1);
+    flow->setTarget(pop2);
+
 
     model.add(pop1);
     model.add(pop2);
@@ -35,8 +39,8 @@ void exponentialTest(){
 
     model.run(0, 100);
     
-    assert(fabs(pop1->getValue() - 36.6032) < 0.0001);
-    assert(fabs(pop2->getValue() - 63.3968) < 0.0001);
+    assert(round(pop1->getValue() - 36.6032) < 0.0001);
+    assert(round(pop2->getValue() - 63.3968) < 0.0001);
 
     cout << "teste exponencial: ok" << endl;
     cout << "\n";
@@ -48,8 +52,9 @@ void exponentialTest(){
 // Classe conforme Caso de Uso (Fig 14) e UML
 class FluxoLogistica : public Flow {
     public:
-        FluxoLogistica(System *source, System *target): 
-            Flow(source, target){}
+        FluxoLogistica(): Flow() {}
+        FluxoLogistica(string& name, System *source, System *target): 
+            Flow(name, source, target){}
             
         // Método 'execute' conforme UML
         double execute(){
@@ -60,10 +65,12 @@ class FluxoLogistica : public Flow {
 void logisticTest(){
     Model model;
 
-    System* p1 = new System("p1", 100.);
-    System* p2 = new System("p2", 10.);
+    System* p1 = new System("p1", 100);
+    System* p2 = new System("p2", 10);
 
-    Flow* flow = new FluxoLogistica(p1, p2);
+    Flow* flow = new FluxoLogistica();
+    flow->setSource(p1);
+    flow->setTarget(p2);
 
     model.add(p1);
     model.add(p2);
@@ -84,11 +91,11 @@ void logisticTest(){
 void complexTest(){
     Model model;
 
-    System* Q1 = new System("Q1",100.);
-    System* Q2 = new System("Q2",0.);
-    System* Q3 = new System("Q3",100.);
-    System* Q4 = new System("Q4",0.);
-    System* Q5 = new System("Q5",0.);
+    System* Q1 = new System("Q1",100);
+    System* Q2 = new System("Q2",0);
+    System* Q3 = new System("Q3",100);
+    System* Q4 = new System("Q4",0);
+    System* Q5 = new System("Q5",0);
 
     Flow* f = new Exponencial(Q1, Q2);
     Flow* g = new Exponencial(Q1, Q3);
@@ -114,11 +121,11 @@ void complexTest(){
     model.run(0, 100);
 
 
-    assert(fabs(Q1->getValue() - 31.8513) < 0.0001);
-    assert(fabs(Q2->getValue() - 18.4003) < 0.0001); 
-    assert(fabs(Q3->getValue() - 77.1143) < 0.0001);
-    assert(fabs(Q4->getValue() - 56.1728) < 0.0001);
-    assert(fabs(Q5->getValue() - 16.4612) < 0.0001);
+    assert(round(Q1->getValue() - 31.8513) < 0.0001);
+    assert(round(Q2->getValue() - 18.4003) < 0.0001); 
+    assert(round(Q3->getValue() - 77.1143) < 0.0001);
+    assert(round(Q4->getValue() - 56.1728) < 0.0001);
+    assert(round(Q5->getValue() - 16.4612) < 0.0001);
 
     cout << "teste complexo: ok" << endl;
 }
