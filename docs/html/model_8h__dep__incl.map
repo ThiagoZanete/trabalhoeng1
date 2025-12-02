@@ -1,0 +1,16 @@
+<map id="src/model.h" name="src/model.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="375,5,474,31"/>
+<area shape="rect" id="Node000002" href="$modelImpl_8h.html" title=" " alt="" coords="297,79,424,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="407,43,373,80,369,77,403,39"/>
+<area shape="rect" id="Node000006" href="$funcional_2main_8cpp.html" title="Arquivo principal responsável por executar os testes funcionais do simulador." alt="" coords="436,247,611,273"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="457,36,485,56,515,83,543,115,565,151,568,179,561,206,549,230,535,249,531,246,544,228,556,204,563,178,559,153,539,118,512,87,482,61,454,41"/>
+<area shape="rect" id="Node000003" href="$modelImpl_8cpp.html" title=" " alt="" coords="5,159,148,185"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,110,119,162,117,157,306,105"/>
+<area shape="rect" id="Node000004" href="$funcional__tests_8h.html" title="Declaração de fluxos de teste e protótipos de testes funcionais." alt="" coords="172,152,347,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="337,114,285,154,282,150,334,110"/>
+<area shape="rect" id="Node000007" href="$unit__model_8cpp.html" title=" " alt="" coords="371,159,551,185"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="388,111,447,157,444,161,385,115"/>
+<area shape="rect" id="Node000005" href="$funcional__tests_8cpp.html" title="Implementação dos testes funcionais do simulador de sistemas." alt="" coords="172,240,347,280"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="262,206,262,240,257,240,257,206"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="331,194,489,245,487,250,330,199"/>
+</map>

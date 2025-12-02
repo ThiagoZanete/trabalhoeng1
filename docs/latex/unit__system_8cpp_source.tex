@@ -1,0 +1,74 @@
+\doxysection{unit\+\_\+system.\+cpp}
+\hypertarget{unit__system_8cpp_source}{}\label{unit__system_8cpp_source}\index{test/unit/unit\_system.cpp@{test/unit/unit\_system.cpp}}
+\mbox{\hyperlink{unit__system_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ <assert.h>}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ <math.h>}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{unit__system_8h}{unit\_system.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00007}00007\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00008}00008\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00009}\mbox{\hyperlink{unit__system_8cpp_a119239607b00029c8eb7cc7b71313fec}{00009}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit__system_8cpp_a119239607b00029c8eb7cc7b71313fec}{unit\_System\_constructor\_default}}()\{}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00010}00010\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00011}00011\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}\ *system\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystemImpl}{SystemImpl}}();}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00012}00012\ \ \ \ \ assert(\textcolor{keyword}{sizeof}(*system)\ >\ 0);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00014}00014\ \ \ \ \ \textcolor{keyword}{delete}\ system;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00015}00015\ \}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00017}\mbox{\hyperlink{unit__system_8cpp_aa228d4e20b9f82fd54737388585ba608}{00017}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit__system_8cpp_aa228d4e20b9f82fd54737388585ba608}{unit\_System\_constructor\_with\_value}}()\{}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00018}00018\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}\ *system\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystemImpl}{SystemImpl}}(30.0);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00019}00019\ \ \ \ \ assert(round(fabs(system-\/>\mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ -\/\ 30.0)*\ 10000)\ <\ 1);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00020}00020\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00021}00021\ \ \ \ \ \textcolor{keyword}{delete}\ system;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00022}00022\ \}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00024}\mbox{\hyperlink{unit__system_8cpp_af9aa8412e32b2f95e2171054667337e0}{00024}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit__system_8cpp_af9aa8412e32b2f95e2171054667337e0}{unit\_system\_copy\_constructor}}()\{}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00025}00025\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}\ *system1\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystemImpl}{SystemImpl}}(30.0);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00026}00026\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}\ *system2\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystemImpl}{SystemImpl}}(*system1);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00028}00028\ \ \ \ \ assert(round(fabs(system1-\/>\mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ -\/\ 30.0)*\ 10000)\ ==\ round(fabs(system1-\/>\mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ -\/\ 30.0)*\ 10000));}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00030}00030\ \ \ \ \ \textcolor{keyword}{delete}\ system1;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00031}00031\ \ \ \ \ \textcolor{keyword}{delete}\ system2;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00032}00032\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00033}00033\ \}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00034}00034\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00035}\mbox{\hyperlink{unit__system_8cpp_a021603784a12638ed34bc8690c832dfc}{00035}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit__system_8cpp_a021603784a12638ed34bc8690c832dfc}{unit\_System\_destructor}}()\{\}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00036}00036\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00037}\mbox{\hyperlink{unit__system_8cpp_ab320622db511f54344c510a9cfdbff94}{00037}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit__system_8cpp_ab320622db511f54344c510a9cfdbff94}{unit\_System\_getValue}}()\{}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00039}00039\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}\ *system\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystemImpl}{SystemImpl}}(30.0);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00040}00040\ \ \ \ \ assert(round(fabs(system-\/>\mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ -\/\ 30.0)*\ 10000)\ <\ 1);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00041}00041\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00042}00042\ \ \ \ \ \textcolor{keyword}{delete}\ system;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00043}00043\ \}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00044}00044\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00045}\mbox{\hyperlink{unit__system_8cpp_ac322ab5fd0cd1051b54ffab7177032e6}{00045}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit__system_8cpp_ac322ab5fd0cd1051b54ffab7177032e6}{unit\_System\_setValue}}()\{}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00046}00046\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00047}00047\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}\ *system\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystemImpl}{SystemImpl}}(30.0);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00049}00049\ \ \ \ \ system-\/>\mbox{\hyperlink{classSystem_a6c88754c7762750119ca9b0b77453a5f}{setValue}}(100.);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00050}00050\ \ \ \ \ assert(round(fabs(system-\/>\mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ -\/\ 30.0)*\ 10000)\ >\ 1);\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00051}00051\ \ \ \ \ assert(round(fabs(system-\/>\mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ -\/\ 100.0)*\ 10000)\ <\ 1);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00052}00052\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00053}00053\ \}}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00054}00054\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00056}\mbox{\hyperlink{unit__system_8cpp_a6efdf0b01b264138781b0ffd0938b986}{00056}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit__system_8cpp_a6efdf0b01b264138781b0ffd0938b986}{unit\_System\_assignOverload}}()\{}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00057}00057\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00058}00058\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}\ *system1\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystemImpl}{SystemImpl}}(50.0);}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00059}00059\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}\ *system2\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystemImpl}{SystemImpl}}();}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00060}00060\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00061}00061\ \ \ \ \ *system2\ =\ *system1;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00062}00062\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00063}00063\ \ \ \ \ assert(round(fabs(system1-\/>\mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ -\/\ 50.0)*\ 10000)\ ==\ round(fabs(system1-\/>\mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ -\/\ 50.0)*\ 10000));}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00064}00064\ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00065}00065\ \ \ \ \ \textcolor{keyword}{delete}\ system1;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00066}00066\ \ \ \ \ \textcolor{keyword}{delete}\ system2;}
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00067}00067\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{unit__system_8cpp_source_l00068}00068\ \}}
+
+\end{DoxyCode}

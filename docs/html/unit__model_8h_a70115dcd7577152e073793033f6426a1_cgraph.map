@@ -1,0 +1,7 @@
+<map id="unit_Model_flowsBegin" name="unit_Model_flowsBegin">
+<area shape="rect" id="Node000001" title="A unitary test for asserting the systemsSize method." alt="" coords="5,31,177,56"/>
+<area shape="rect" id="Node000002" href="$classModel.html#abfb2ff6a7566fde6bea104ddd3c556ed" title="Adiciona um novo sistema ao modelo." alt="" coords="249,5,343,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,30,235,23,235,28,178,35"/>
+<area shape="rect" id="Node000003" href="$classModel.html#aa8c013145cae0e5a5a5dd0059ebb0123" title="Gets the iterator pointing to the beginning of the flows in the model." alt="" coords="225,55,367,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,51,212,55,211,60,177,56"/>
+</map>

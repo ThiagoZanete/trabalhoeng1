@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFlow.html" title="Classe base abstrata que define um fluxo entre dois Systems." alt="" coords="5,55,59,80"/>
+<area shape="rect" id="Node000001" href="$classFlowImpl.html" title=" " alt="" coords="107,55,189,80"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="73,65,106,65,106,70,73,70"/>
+<area shape="rect" id="Node000002" href="$classExponentialFlow.html" title="Implementação de Flow para teste: fluxo proporcional ao source." alt="" coords="237,5,368,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="201,48,261,28,263,33,202,53"/>
+<area shape="rect" id="Node000003" href="$classFlowTest.html" title=" " alt="" coords="263,55,342,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="204,65,263,65,263,70,204,70"/>
+<area shape="rect" id="Node000004" href="$classLogisticFlow.html" title="Implementação de Flow para teste: crescimento logístico no target." alt="" coords="251,104,354,129"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="202,82,263,101,261,106,201,87"/>
+</map>

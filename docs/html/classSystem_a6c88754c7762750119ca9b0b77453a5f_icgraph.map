@@ -1,0 +1,19 @@
+<map id="System::setValue" name="System::setValue">
+<area shape="rect" id="Node000001" title="Define um novo valor para o sistema." alt="" coords="557,56,692,81"/>
+<area shape="rect" id="Node000002" href="$funcional__tests_8cpp.html#a2c448ffaffdff4b03c825a01dffa6f27" title="Teste funcional para verificar comportamento do fluxo exponencial." alt="" coords="108,5,295,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="559,56,509,46,398,33,295,25,295,20,398,27,510,41,560,50"/>
+<area shape="rect" id="Node000004" href="$classModelImpl.html#a8dea3d0d1fd298dd58927276670a9018" title="Executa a simulação completa." alt="" coords="366,56,486,81"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="543,71,486,71,486,66,543,66"/>
+<area shape="rect" id="Node000007" href="$unit__system_8cpp.html#ac322ab5fd0cd1051b54ffab7177032e6" title="A unitary test for asserting the setValue method." alt="" coords="343,129,509,155"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="577,89,463,132,461,127,575,84"/>
+<area shape="rect" id="Node000003" href="$funcional_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,35,61,42,60,37,103,30"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="355,56,258,33,259,28,356,50"/>
+<area shape="rect" id="Node000005" href="$funcional__tests_8cpp.html#a943dfe0c597a01c9760c140715fed527" title="Teste funcional composto (cenário mais complexo)." alt="" coords="118,55,285,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="352,71,285,70,285,65,352,66"/>
+<area shape="rect" id="Node000006" href="$unit__model_8cpp.html#a37286918320acd70d56642498fa32c18" title=" " alt="" coords="140,104,263,129"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="353,87,262,107,261,101,352,82"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="104,56,60,50,61,44,105,51"/>
+<area shape="rect" id="Node000008" href="$unit_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="174,153,229,179"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="330,155,229,166,228,161,329,150"/>
+</map>

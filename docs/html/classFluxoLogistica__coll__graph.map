@@ -1,0 +1,7 @@
+<map id="FluxoLogistica" name="FluxoLogistica">
+<area shape="rect" id="Node000001" title="Classe de fluxo que implementa uma equação logística." alt="" coords="5,683,137,788"/>
+<area shape="rect" id="Node000002" href="$classFlow.html" title="Classe base abstrata que representa um fluxo dentro do modelo." alt="" coords="19,348,124,633"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,647,74,682,69,682,69,647"/>
+<area shape="rect" id="Node000003" href="$classSystem.html" title="Classe que representa um sistema/estoque no modelo de simulação." alt="" coords="19,5,124,271"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,271,74,332,69,332,69,271"/>
+</map>

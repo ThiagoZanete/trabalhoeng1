@@ -1,0 +1,14 @@
+<map id="ModelImpl::add" name="ModelImpl::add">
+<area shape="rect" id="Node000001" title="Adiciona um novo sistema ao modelo." alt="" coords="343,80,465,105"/>
+<area shape="rect" id="Node000002" href="$funcional__tests_8cpp.html#a943dfe0c597a01c9760c140715fed527" title="Teste funcional composto (cenário mais complexo)." alt="" coords="118,5,285,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="366,76,294,44,257,33,259,28,296,40,368,71"/>
+<area shape="rect" id="Node000004" href="$funcional__tests_8cpp.html#a2c448ffaffdff4b03c825a01dffa6f27" title="Teste funcional para verificar comportamento do fluxo exponencial." alt="" coords="108,55,295,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="329,86,294,82,295,76,330,81"/>
+<area shape="rect" id="Node000005" href="$classModelImpl.html#a3c033ed72da1dd33a8292078f0ebb8e9" title="Construtor de cópia." alt="" coords="117,104,285,129"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="330,104,286,109,285,104,329,99"/>
+<area shape="rect" id="Node000006" href="$classModelImpl.html#aeff4820dad51184595b32161b913b71f" title="Operador de atribuição." alt="" coords="119,153,284,179"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="365,114,296,143,255,156,253,151,294,138,363,109"/>
+<area shape="rect" id="Node000003" href="$funcional_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,35,61,42,60,37,104,30"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="99,55,60,50,61,44,99,50"/>
+</map>

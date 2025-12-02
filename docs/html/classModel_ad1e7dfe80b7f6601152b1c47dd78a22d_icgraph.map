@@ -1,0 +1,11 @@
+<map id="Model::systemsEnd" name="Model::systemsEnd">
+<area shape="rect" id="Node000001" title="Gets the iterator pointing to the end of the systems in the model." alt="" coords="336,55,485,80"/>
+<area shape="rect" id="Node000002" href="$classModelImpl.html#a3c033ed72da1dd33a8292078f0ebb8e9" title="Construtor de cópia." alt="" coords="114,5,282,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="341,54,253,33,254,28,343,49"/>
+<area shape="rect" id="Node000003" href="$classModelImpl.html#aeff4820dad51184595b32161b913b71f" title="Operador de atribuição." alt="" coords="115,55,281,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="322,70,281,70,281,65,322,65"/>
+<area shape="rect" id="Node000004" href="$unit__model_8cpp.html#a48cf040ec77c857814f535c4b9ba6764" title="A unitary test for asserting the systemsEnd method." alt="" coords="108,104,288,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="343,86,254,107,253,101,341,81"/>
+<area shape="rect" id="Node000005" href="$unit_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,104,60,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,119,60,119,60,114,94,114"/>
+</map>

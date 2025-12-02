@@ -1,0 +1,33 @@
+<map id="Flow::getTarget" name="Flow::getTarget">
+<area shape="rect" id="Node000001" title="Retorna o sistema de destino." alt="" coords="593,193,715,219"/>
+<area shape="rect" id="Node000002" href="$classFlowImpl.html#ab6633e6def4d5b66b3d7fc84004be98e" title="Construtor de cópia." alt="" coords="369,5,519,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="641,181,626,149,605,112,578,75,544,44,518,31,521,27,547,40,581,71,609,109,631,147,645,179"/>
+<area shape="rect" id="Node000003" href="$classFlowImpl.html#a0bc14fb2c5766fed3baabbb4f1af24b8" title="Operador de atribuição." alt="" coords="366,55,522,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="635,183,597,137,572,113,544,94,519,82,521,78,547,89,575,109,601,133,639,180"/>
+<area shape="rect" id="Node000004" href="$classModelImpl.html#a8dea3d0d1fd298dd58927276670a9018" title="Executa a simulação completa." alt="" coords="384,104,504,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="622,188,586,165,544,144,504,131,505,126,546,140,588,161,625,183"/>
+<area shape="rect" id="Node000009" href="$unit__flow_8cpp.html#ab32833442c11555f0c9fa1d7c1741c64" title="A unitary test for asserting the default constructor of FlowImpl." alt="" coords="361,154,527,194"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="579,197,526,189,527,184,580,192"/>
+<area shape="rect" id="Node000011" href="$unit__flow_8cpp.html#a3231208f2b26b59669b482a9f025b53b" title="A unitary test for asserting the constructor of FlowImpl source and target params." alt="" coords="361,218,527,258"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="580,220,527,228,526,223,579,215"/>
+<area shape="rect" id="Node000012" href="$unit__flow_8cpp.html#a552e52c045c91bbb5ce653952b7b2075" title="A unitary test for asserting the copy constructor of FlowImpl." alt="" coords="343,283,545,308"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="625,229,588,251,546,272,508,285,507,280,544,268,586,247,622,224"/>
+<area shape="rect" id="Node000013" href="$unit__flow_8cpp.html#a89661cef89f6beb434f6097691c03538" title="A unitary test for asserting the getTarget method." alt="" coords="367,332,521,357"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="639,232,601,279,575,303,547,323,521,334,519,330,544,318,572,299,597,275,635,229"/>
+<area shape="rect" id="Node000014" href="$unit__flow_8cpp.html#a0b2a81b6dbbc3c5b1b25874640705654" title="A unitary test for asserting the setTarget method." alt="" coords="368,381,520,407"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="645,233,631,265,609,303,581,341,547,372,521,385,519,380,544,368,578,337,605,300,626,263,641,231"/>
+<area shape="rect" id="Node000005" href="$funcional__tests_8cpp.html#a943dfe0c597a01c9760c140715fed527" title="Teste funcional composto (cenário mais complexo)." alt="" coords="118,55,285,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="370,105,264,83,265,77,371,99"/>
+<area shape="rect" id="Node000007" href="$funcional__tests_8cpp.html#a2c448ffaffdff4b03c825a01dffa6f27" title="Teste funcional para verificar comportamento do fluxo exponencial." alt="" coords="108,104,295,129"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="370,119,295,119,295,114,370,114"/>
+<area shape="rect" id="Node000008" href="$unit__model_8cpp.html#a37286918320acd70d56642498fa32c18" title=" " alt="" coords="140,153,263,179"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="371,134,263,156,262,151,370,129"/>
+<area shape="rect" id="Node000006" href="$funcional_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,80,60,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="105,85,61,91,60,86,104,79"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="99,105,60,99,61,94,99,99"/>
+<area shape="rect" id="Node000010" href="$unit_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="174,307,229,332"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="357,202,344,208,305,233,269,260,217,309,213,305,266,256,302,228,341,204,355,197"/>
+<area shape="poly" id="edge13_Node000012_Node000010" title=" " alt="" coords="329,309,229,319,229,314,329,304"/>
+<area shape="poly" id="edge15_Node000013_Node000010" title=" " alt="" coords="353,338,229,325,229,319,353,333"/>
+<area shape="poly" id="edge17_Node000014_Node000010" title=" " alt="" coords="371,381,342,373,228,332,230,327,343,367,372,375"/>
+</map>

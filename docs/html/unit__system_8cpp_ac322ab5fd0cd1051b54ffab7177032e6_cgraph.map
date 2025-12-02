@@ -1,0 +1,7 @@
+<map id="unit_System_setValue" name="unit_System_setValue">
+<area shape="rect" id="Node000001" title="A unitary test for asserting the setValue method." alt="" coords="5,31,172,56"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#a41b673faa6c199eb8e4f204639fab4f2" title="Obtém o valor atual armazenado." alt="" coords="220,5,356,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,30,206,26,207,31,173,35"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#a6c88754c7762750119ca9b0b77453a5f" title="Define um novo valor para o sistema." alt="" coords="221,55,355,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,51,207,55,207,60,172,56"/>
+</map>

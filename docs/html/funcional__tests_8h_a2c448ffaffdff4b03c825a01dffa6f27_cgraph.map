@@ -1,0 +1,21 @@
+<map id="exponentialFuncionalTest" name="exponentialFuncionalTest">
+<area shape="rect" id="Node000001" title="Teste funcional para verificar comportamento do fluxo exponencial." alt="" coords="5,132,192,157"/>
+<area shape="rect" id="Node000002" href="$classModelImpl.html#a75824d3eb5f2e250616621b3ca8f081d" title="Adiciona um novo sistema ao modelo." alt="" coords="256,5,379,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,130,169,91,239,48,268,34,270,39,241,52,172,95,118,134"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#a41b673faa6c199eb8e4f204639fab4f2" title="Obtém o valor atual armazenado." alt="" coords="443,32,579,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,129,181,110,239,91,337,69,428,53,429,58,338,74,241,97,182,115,132,134"/>
+<area shape="rect" id="Node000004" href="$classModelImpl.html#a8dea3d0d1fd298dd58927276670a9018" title="Executa a simulação completa." alt="" coords="257,107,377,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,131,243,125,244,130,193,136"/>
+<area shape="rect" id="Node000007" href="$classSystem.html#a6c88754c7762750119ca9b0b77453a5f" title="Define um novo valor para o sistema." alt="" coords="443,180,578,205"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="193,153,429,181,429,186,192,158"/>
+<area shape="rect" id="Node000008" href="$classFlowImpl.html#ac318088ce5a65ed70e89e983d4fb40c4" title="Define o sistema de origem do fluxo." alt="" coords="240,208,395,233"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="137,155,268,201,266,206,135,160"/>
+<area shape="rect" id="Node000009" href="$classFlowImpl.html#aaaf9ec5fd7db97641e381b3a5261eefb" title="Define o sistema de destino do fluxo." alt="" coords="242,257,393,283"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="116,156,169,198,204,222,241,244,256,250,254,255,239,248,201,227,166,202,113,160"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="348,104,442,66,459,60,461,65,444,71,350,109"/>
+<area shape="rect" id="Node000005" href="$classFlow.html#abf0f3dbb285fe82e5ba6449de06b97c8" title="Retorna o sistema de origem." alt="" coords="448,81,573,107"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="377,109,434,101,435,107,378,114"/>
+<area shape="rect" id="Node000006" href="$classFlow.html#afb9b8d93ea0fc81868b8e02dd382a787" title="Retorna o sistema de destino." alt="" coords="450,131,571,156"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="378,124,437,132,436,137,377,129"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="351,130,444,166,461,173,459,178,442,171,349,135"/>
+</map>

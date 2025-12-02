@@ -1,0 +1,71 @@
+\doxysection{test/funcional/main.cpp File Reference}
+\hypertarget{funcional_2main_8cpp}{}\label{funcional_2main_8cpp}\index{test/funcional/main.cpp@{test/funcional/main.cpp}}
+
+
+Arquivo principal responsável por executar os testes funcionais do simulador.  
+
+
+{\ttfamily \#include "{}funcional\+\_\+tests.\+h"{}}\newline
+{\ttfamily \#include "{}../../src/model.\+h"{}}\newline
+{\ttfamily \#include "{}../../src/flow.\+h"{}}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional_2main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{funcional_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Arquivo principal responsável por executar os testes funcionais do simulador. 
+
+Este arquivo contém apenas a função {\ttfamily \doxylink{funcional_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main()}}, cuja função é chamar os testes funcionais implementados em {\ttfamily functional\+\_\+tests.\+cpp}. Ele serve como ponto de entrada para validar o comportamento do simulador completo, verificando a interação entre \doxylink{classModel}{Model}, \doxylink{classSystem}{System} e \doxylink{classFlow}{Flow} por meio dos cenários definidos nos testes.
+
+A execução inclui\+:
+\begin{DoxyItemize}
+\item Teste funcional exponencial.
+\item Teste funcional logístico.
+\item Teste funcional complexo envolvendo múltiplos fluxos.
+\end{DoxyItemize}
+
+Cada teste utiliza asserts para verificar se o simulador está produzindo resultados consistentes e matematicamente corretos.
+
+\begin{DoxyAuthor}{Author}
+Thiago Zanete 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2025 
+\end{DoxyDate}
+
+
+Definition in file \mbox{\hyperlink{funcional_2main_8cpp_source}{main.\+cpp}}.
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{funcional_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{funcional_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{funcional_2main_8cpp_source_l00032}{32}} of file \mbox{\hyperlink{funcional_2main_8cpp_source}{main.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe_cgraph}
+\end{center}
+\end{figure}

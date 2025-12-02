@@ -1,45 +1,75 @@
+# Compilador
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++11
 
-CXX := g++
-CXXFLAGS := -Wall -std=c++11 -g -Isrc
-LDFLAGS := -lm
-BUILD_DIR := bin
+# Diretórios
+SRCDIR = src
+FUNCTESTDIR = test/funcional
+UNITTESTDIR = test/unit
+BINDIR = bin
+OBJDIR = $(BINDIR)/obj
 
-SOURCES_SRC := $(wildcard src/*.cpp)
-SOURCES_TEST := $(shell find test -name '*.cpp')
+# Fontes principais
+SRCS = $(wildcard $(SRCDIR)/*.cpp)
+OBJS = $(patsubst $(SRCDIR)/%.cpp,$(OBJDIR)/src_%.o,$(SRCS))
 
-# Os arquivos .o vão para o BUILD_DIR
-OBJECTS_SRC := $(addprefix $(BUILD_DIR)/, $(notdir $(SOURCES_SRC:.cpp=.o)))
-OBJECTS_TEST := $(addprefix $(BUILD_DIR)/, $(notdir $(SOURCES_TEST:.cpp=.o)))
-OBJECTS := $(OBJECTS_SRC) $(OBJECTS_TEST)
+# Testes funcionais
+FUNC_TEST_SRCS = $(wildcard $(FUNCTESTDIR)/*.cpp)
+FUNC_TEST_OBJS = $(patsubst $(FUNCTESTDIR)/%.cpp,$(OBJDIR)/func_%.o,$(FUNC_TEST_SRCS))
+FUNC_TEST_EXE = $(BINDIR)/funcional_tests
 
-TARGET := exe
-VPATH = src:$(shell find test -type d)
+# Testes unitários
+UNIT_TEST_SRCS = $(wildcard $(UNITTESTDIR)/*.cpp)
+UNIT_TEST_OBJS = $(patsubst $(UNITTESTDIR)/%.cpp,$(OBJDIR)/unit_%.o,$(UNIT_TEST_SRCS))
+UNIT_TEST_EXE = $(BINDIR)/unit_tests
 
+# Biblioteca
+LIB = $(BINDIR)/libmylib.a
 
-.PHONY: all run clean
+.PHONY: all test unit clean
 
-all: $(TARGET)
+all: $(LIB) $(FUNC_TEST_EXE) $(UNIT_TEST_EXE)
 
+# cria biblioteca com os .o principais
+$(LIB): $(OBJS) | $(BINDIR)
+	ar rcs $@ $^
 
-$(TARGET): $(OBJECTS) | $(BUILD_DIR)
-	# O output é $(TARGET), que agora é 'exe' no diretório raiz
-	$(CXX) $(OBJECTS) $(LDFLAGS) -o $(TARGET)
-	@echo "Linkagem concluída: [$(TARGET)]"
+# executável de testes funcionais
+$(FUNC_TEST_EXE): $(OBJS) $(FUNC_TEST_OBJS) | $(BINDIR)
+	$(CXX) $(CXXFLAGS) $^ -o $@
 
-$(BUILD_DIR)/%.o: %.cpp | $(BUILD_DIR)
+# executável de testes unitários
+$(UNIT_TEST_EXE): $(OBJS) $(UNIT_TEST_OBJS) | $(BINDIR)
+	$(CXX) $(CXXFLAGS) $^ -o $@
+
+# regra para src → bin/obj com prefixo src_
+$(OBJDIR)/src_%.o: $(SRCDIR)/%.cpp | $(OBJDIR)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-$(BUILD_DIR):
-	@mkdir -p $(BUILD_DIR)
+# regra para testes funcionais → bin/obj com prefixo func_
+$(OBJDIR)/func_%.o: $(FUNCTESTDIR)/%.cpp | $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
+# regra para testes unitários → bin/obj com prefixo unit_
+$(OBJDIR)/unit_%.o: $(UNITTESTDIR)/%.cpp | $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-run: all
-	@echo "Executando..."
-	./$(TARGET)
+# cria diretórios
+$(BINDIR):
+	mkdir -p $(BINDIR)
 
+$(OBJDIR): | $(BINDIR)
+	mkdir -p $(OBJDIR)
 
-# Agora remove o diretório 'bin' E o arquivo 'exe' da raiz
+# rodar testes funcionais
+test: $(FUNC_TEST_EXE)
+	@echo "Executando testes funcionais..."
+	./$(FUNC_TEST_EXE)
+
+# rodar testes unitários
+unit: $(UNIT_TEST_EXE)
+	@echo "Executando testes unitários..."
+	./$(UNIT_TEST_EXE)
+
 clean:
-	@echo "Limpando diretório [$(BUILD_DIR)] e executável [$(TARGET)]..."
-	rm -rf $(BUILD_DIR)
-	rm -f $(TARGET)
+	rm -rf $(BINDIR)

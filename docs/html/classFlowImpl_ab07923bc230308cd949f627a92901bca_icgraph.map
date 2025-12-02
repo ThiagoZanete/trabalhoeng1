@@ -1,0 +1,5 @@
+<map id="FlowImpl::getTarget" name="FlowImpl::getTarget">
+<area shape="rect" id="Node000001" title="Retorna o sistema de destino." alt="" coords="215,5,365,31"/>
+<area shape="rect" id="Node000002" href="$classLogisticFlow.html#afdc1e2ec0eb61b71b367f8fc2677e371" title="Calcula o valor do fluxo (crescimento logístico baseado no target)." alt="" coords="5,5,167,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,21,167,21,167,15,201,15"/>
+</map>

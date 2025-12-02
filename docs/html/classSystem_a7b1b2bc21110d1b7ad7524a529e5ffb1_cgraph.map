@@ -1,0 +1,7 @@
+<map id="System::operator=" name="System::operator=">
+<area shape="rect" id="Node000001" title="Sobrecarga do operador de atribuição." alt="" coords="5,31,151,56"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#a703d2f8140d276094d078f1b9c229638" title="Obtém o nome do sistema." alt="" coords="199,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,31,185,26,186,32,151,36"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#a8459db57c2462ae8f71ef9ebc7347539" title="Obtém o valor atual do sistema." alt="" coords="200,55,336,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,50,187,54,186,60,150,55"/>
+</map>

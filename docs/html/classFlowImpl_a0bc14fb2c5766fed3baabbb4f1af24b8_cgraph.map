@@ -1,0 +1,7 @@
+<map id="FlowImpl::operator=" name="FlowImpl::operator=">
+<area shape="rect" id="Node000001" title="Operador de atribuição." alt="" coords="5,31,161,56"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#abf0f3dbb285fe82e5ba6449de06b97c8" title="Retorna o sistema de origem." alt="" coords="209,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,30,195,26,196,31,162,36"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#afb9b8d93ea0fc81868b8e02dd382a787" title="Retorna o sistema de destino." alt="" coords="211,55,333,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,51,198,55,198,61,161,56"/>
+</map>

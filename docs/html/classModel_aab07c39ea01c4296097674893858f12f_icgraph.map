@@ -1,0 +1,7 @@
+<map id="Model::remove" name="Model::remove">
+<area shape="rect" id="Node000001" title="Remove um sistema existente do modelo." alt="" coords="253,31,373,56"/>
+<area shape="rect" id="Node000002" href="$unit__model_8cpp.html#a9558a5ae2be456fcc8c7a3b1ecd5f3cb" title="A unitary test for asserting the removeFlow method." alt="" coords="14,5,197,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,37,197,32,197,26,240,32"/>
+<area shape="rect" id="Node000003" href="$unit__model_8cpp.html#ad30b83679de39115af7c05c286ed505b" title="A unitary test for asserting the add method with the System* overload." alt="" coords="5,55,205,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,54,206,58,205,53,240,49"/>
+</map>

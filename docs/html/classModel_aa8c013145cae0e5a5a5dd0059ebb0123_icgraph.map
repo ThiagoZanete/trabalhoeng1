@@ -1,0 +1,13 @@
+<map id="Model::flowsBegin" name="Model::flowsBegin">
+<area shape="rect" id="Node000001" title="Gets the iterator pointing to the beginning of the flows in the model." alt="" coords="339,80,480,105"/>
+<area shape="rect" id="Node000002" href="$classModelImpl.html#a3c033ed72da1dd33a8292078f0ebb8e9" title="Construtor de cópia." alt="" coords="115,5,283,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="368,77,290,45,253,33,254,28,292,39,370,72"/>
+<area shape="rect" id="Node000003" href="$classModelImpl.html#aeff4820dad51184595b32161b913b71f" title="Operador de atribuição." alt="" coords="117,55,282,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="325,85,282,80,283,75,325,80"/>
+<area shape="rect" id="Node000004" href="$unit__model_8cpp.html#a70115dcd7577152e073793033f6426a1" title="A unitary test for asserting the systemsSize method." alt="" coords="113,104,285,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="325,105,286,109,285,104,325,100"/>
+<area shape="rect" id="Node000006" href="$unit__model_8cpp.html#a9558a5ae2be456fcc8c7a3b1ecd5f3cb" title="A unitary test for asserting the removeFlow method." alt="" coords="108,153,291,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="368,113,292,143,250,156,249,151,290,138,366,108"/>
+<area shape="rect" id="Node000005" href="$unit_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,104,60,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="100,119,60,119,60,114,100,114"/>
+</map>

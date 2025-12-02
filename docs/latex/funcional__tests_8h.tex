@@ -1,0 +1,206 @@
+\doxysection{test/funcional/funcional\+\_\+tests.h File Reference}
+\hypertarget{funcional__tests_8h}{}\label{funcional__tests_8h}\index{test/funcional/funcional\_tests.h@{test/funcional/funcional\_tests.h}}
+
+
+Declaração de fluxos de teste e protótipos de testes funcionais.  
+
+
+{\ttfamily \#include "{}../../src/model\+Impl.\+h"{}}\newline
+{\ttfamily \#include "{}../../src/flow\+Impl.\+h"{}}\newline
+{\ttfamily \#include "{}../../src/system\+Impl.\+h"{}}\newline
+Include dependency graph for funcional\+\_\+tests.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classExponentialFlow}{Exponential\+Flow}}
+\begin{DoxyCompactList}\small\item\em Implementação de \doxylink{classFlow}{Flow} para teste\+: fluxo proporcional ao source. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classLogisticFlow}{Logistic\+Flow}}
+\begin{DoxyCompactList}\small\item\em Implementação de \doxylink{classFlow}{Flow} para teste\+: crescimento logístico no target. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27}{exponential\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Teste funcional para verificar comportamento do fluxo exponencial. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{funcional__tests_8h_a60914db64bde71b56d69320797266c29}{logistical\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Teste funcional para verificar comportamento do fluxo logístico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527}{complex\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Teste funcional composto (cenário mais complexo). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaração de fluxos de teste e protótipos de testes funcionais. 
+
+Este arquivo contém implementações simples de subclasses de \doxylink{classFlow}{Flow} usadas exclusivamente para testes funcionais do simulador (\doxylink{classExponentialFlow}{Exponential\+Flow} e logistic\+Flow), bem como os protótipos das funções de teste que verificam cenários comportamentais do sistema/model.
+
+As classes aqui definidas são utilitárias para os testes e não fazem parte da API pública do simulador. Elas são usadas para validar a integração entre \doxylink{classModel}{Model}, \doxylink{classSystem}{System} e \doxylink{classFlow}{Flow} durante execuções de teste automatizadas.
+
+\begin{DoxyAuthor}{Author}
+Thiago Zanete 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2025 
+\end{DoxyDate}
+
+
+Definition in file \mbox{\hyperlink{funcional__tests_8h_source}{funcional\+\_\+tests.\+h}}.
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527}\label{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527} 
+\index{funcional\_tests.h@{funcional\_tests.h}!complexFuncionalTest@{complexFuncionalTest}}
+\index{complexFuncionalTest@{complexFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{complexFuncionalTest()}{complexFuncionalTest()}}
+{\footnotesize\ttfamily void complex\+Funcional\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Teste funcional composto (cenário mais complexo). 
+
+Este teste combina múltiplos Systems e Fluxos para validar interações e efeitos cumulativos dentro do \doxylink{classModel}{Model} (sinergia/competição entre fluxos). Ponteiro de \doxylink{classSystem}{System} iniciado como 100.
+
+Ponteiro de \doxylink{classSystem}{System} iniciado como 0.
+
+Ponteiro de \doxylink{classSystem}{System} iniciado como 100.
+
+Ponteiro de \doxylink{classSystem}{System} iniciado como 0.
+
+Ponteiro de \doxylink{classSystem}{System} iniciado como 0.
+
+Ponteiro de \doxylink{classFlow}{Flow}.
+
+Ponteiro de \doxylink{classFlow}{Flow}.
+
+Ponteiro de \doxylink{classFlow}{Flow}.
+
+Ponteiro de \doxylink{classFlow}{Flow}.
+
+Ponteiro de \doxylink{classFlow}{Flow}.
+
+Ponteiro de \doxylink{classFlow}{Flow}.
+
+Execução do programa realizando operacoes de 0 a 100.
+
+Conferindo o resultado final do primeiro sistema com o valor 31.\+8513.
+
+Conferindo o resultado final do segundo sistema com o valor 18.\+4003.
+
+Conferindo o resultado final do terceiro sistema com o valor 77.\+1143.
+
+Conferindo o resultado final do quarto sistema com o valor 56.\+1728.
+
+Conferindo o resultado final do quinto sistema com o valor 16.\+4612.
+
+Definition at line \mbox{\hyperlink{funcional__tests_8cpp_source_l00128}{128}} of file \mbox{\hyperlink{funcional__tests_8cpp_source}{funcional\+\_\+tests.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27}\label{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27} 
+\index{funcional\_tests.h@{funcional\_tests.h}!exponentialFuncionalTest@{exponentialFuncionalTest}}
+\index{exponentialFuncionalTest@{exponentialFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{exponentialFuncionalTest()}{exponentialFuncionalTest()}}
+{\footnotesize\ttfamily void exponential\+Funcional\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Teste funcional para verificar comportamento do fluxo exponencial. 
+
+Ponteiro de \doxylink{classSystem}{System} iniciado como 100.
+
+Ponteiro de \doxylink{classSystem}{System} iniciado como 0.
+
+Ponteiro de \doxylink{classFlow}{Flow}.
+
+Execução do programa realizando operacoes de 0 a 100.
+
+Conferindo o resultado final do primeiro sistema com o valor 36.\+6032.
+
+Conferindo o resultado final do segundo sistema com o valor 63.\+3968.
+
+Definition at line \mbox{\hyperlink{funcional__tests_8cpp_source_l00038}{38}} of file \mbox{\hyperlink{funcional__tests_8cpp_source}{funcional\+\_\+tests.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{funcional__tests_8h_a60914db64bde71b56d69320797266c29}\label{funcional__tests_8h_a60914db64bde71b56d69320797266c29} 
+\index{funcional\_tests.h@{funcional\_tests.h}!logisticalFuncionalTest@{logisticalFuncionalTest}}
+\index{logisticalFuncionalTest@{logisticalFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{logisticalFuncionalTest()}{logisticalFuncionalTest()}}
+{\footnotesize\ttfamily void logistical\+Funcional\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Teste funcional para verificar comportamento do fluxo logístico. 
+
+Ponteiro de \doxylink{classSystem}{System} iniciado como 100.
+
+Ponteiro de \doxylink{classSystem}{System} iniciado como 10.
+
+Ponteiro de \doxylink{classFlow}{Flow}.
+
+Execução do programa realizando operacoes de 0 a 100.
+
+Conferindo o resultado final do primeiro sistema com o valor 88.\+2167.
+
+Conferindo o resultado final do segundo sistema com o valor 21.\+7833.
+
+Definition at line \mbox{\hyperlink{funcional__tests_8cpp_source_l00085}{85}} of file \mbox{\hyperlink{funcional__tests_8cpp_source}{funcional\+\_\+tests.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h_a60914db64bde71b56d69320797266c29_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{funcional__tests_8h_a60914db64bde71b56d69320797266c29_icgraph}
+\end{center}
+\end{figure}

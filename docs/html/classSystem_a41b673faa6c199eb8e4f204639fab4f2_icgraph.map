@@ -1,0 +1,39 @@
+<map id="System::getValue" name="System::getValue">
+<area shape="rect" id="Node000001" title="Obtém o valor atual armazenado." alt="" coords="611,256,747,281"/>
+<area shape="rect" id="Node000002" href="$classExponentialFlow.html#a8ebb0c298d3bea1d30c48cd79f10ddb1" title="Calcula o valor do fluxo (proporcional ao source)." alt="" coords="359,5,547,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="669,243,657,199,636,145,604,90,584,65,561,44,542,33,545,28,564,40,588,62,608,87,640,143,662,197,674,242"/>
+<area shape="rect" id="Node000003" href="$classLogisticFlow.html#afdc1e2ec0eb61b71b367f8fc2677e371" title="Calcula o valor do fluxo (crescimento logístico baseado no target)." alt="" coords="372,55,533,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="665,244,649,212,626,173,597,134,561,102,522,82,525,78,564,97,600,131,630,170,653,209,669,242"/>
+<area shape="rect" id="Node000004" href="$funcional__tests_8cpp.html#a2c448ffaffdff4b03c825a01dffa6f27" title="Teste funcional para verificar comportamento do fluxo exponencial." alt="" coords="108,157,295,183"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="651,249,611,221,562,197,494,179,424,170,356,166,295,166,295,161,356,161,424,164,495,174,564,191,614,216,654,245"/>
+<area shape="rect" id="Node000006" href="$funcional__tests_8cpp.html#a60914db64bde71b56d69320797266c29" title="Teste funcional para verificar comportamento do fluxo logístico." alt="" coords="117,107,286,132"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="658,247,618,203,591,181,562,163,492,139,420,124,349,118,286,117,286,112,349,113,420,119,494,133,564,158,594,176,621,199,662,244"/>
+<area shape="rect" id="Node000007" href="$classSystemImpl.html#acde74b16ebd3450a7fb998d9fe4701c1" title="Operador de atribuição." alt="" coords="365,207,540,232"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="606,256,511,235,512,229,607,250"/>
+<area shape="rect" id="Node000008" href="$classModelImpl.html#a8dea3d0d1fd298dd58927276670a9018" title="Executa a simulação completa." alt="" coords="393,256,513,281"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="597,271,513,271,513,266,597,266"/>
+<area shape="rect" id="Node000011" href="$unit__system_8cpp.html#a6efdf0b01b264138781b0ffd0938b986" title="A unitary test for asserting the overload of the assignment(=) operator." alt="" coords="347,305,558,331"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="607,287,512,308,511,303,606,282"/>
+<area shape="rect" id="Node000013" href="$unit__system_8cpp.html#aa228d4e20b9f82fd54737388585ba608" title="A unitary test for asserting the constructor of SystemImpl with value parameter." alt="" coords="361,355,544,395"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="651,292,611,319,564,344,530,358,528,353,562,340,608,314,648,287"/>
+<area shape="rect" id="Node000014" href="$unit__system_8cpp.html#af9aa8412e32b2f95e2171054667337e0" title="A unitary test for asserting the copy constructor of SystemImpl." alt="" coords="343,420,563,445"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="666,295,626,353,597,384,564,410,536,422,534,418,561,405,594,380,622,350,662,292"/>
+<area shape="rect" id="Node000015" href="$unit__system_8cpp.html#ab320622db511f54344c510a9cfdbff94" title="A unitary test for asserting the getValue method." alt="" coords="369,469,536,495"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="672,296,657,333,634,378,604,423,564,460,537,474,535,469,561,456,600,419,630,375,652,331,667,294"/>
+<area shape="rect" id="Node000016" href="$unit__system_8cpp.html#ac322ab5fd0cd1051b54ffab7177032e6" title="A unitary test for asserting the setValue method." alt="" coords="369,519,536,544"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="675,296,663,342,642,400,610,459,589,486,564,509,537,524,535,519,561,505,585,483,605,456,637,398,658,340,670,294"/>
+<area shape="rect" id="Node000005" href="$funcional_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,157,60,183"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,173,60,173,60,167,94,167"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="139,138,109,147,61,163,59,158,107,142,138,133"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="378,261,341,246,326,233,316,220,308,208,293,196,268,185,270,180,296,192,312,204,321,217,330,230,344,241,380,256"/>
+<area shape="rect" id="Node000009" href="$funcional__tests_8cpp.html#a943dfe0c597a01c9760c140715fed527" title="Teste funcional composto (cenário mais complexo)." alt="" coords="118,256,285,281"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="379,271,285,271,285,266,379,266"/>
+<area shape="rect" id="Node000010" href="$unit__model_8cpp.html#a37286918320acd70d56642498fa32c18" title=" " alt="" coords="140,207,263,232"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="379,257,262,234,263,229,380,252"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="123,254,107,246,69,215,42,185,46,181,72,211,109,241,125,249"/>
+<area shape="rect" id="Node000012" href="$unit_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="174,444,229,469"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="365,337,344,346,305,369,268,397,216,446,213,442,265,393,302,365,341,341,363,332"/>
+<area shape="poly" id="edge17_Node000014_Node000012" title=" " alt="" coords="330,447,229,457,229,451,329,442"/>
+<area shape="poly" id="edge19_Node000015_Node000012" title=" " alt="" coords="356,475,229,462,229,457,356,470"/>
+<area shape="poly" id="edge21_Node000016_Node000012" title=" " alt="" coords="373,518,342,510,228,470,230,465,343,505,375,513"/>
+</map>

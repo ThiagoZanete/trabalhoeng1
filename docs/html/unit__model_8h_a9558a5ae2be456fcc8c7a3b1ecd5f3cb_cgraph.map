@@ -1,0 +1,9 @@
+<map id="unit_Model_removeFlow" name="unit_Model_removeFlow">
+<area shape="rect" id="Node000001" title="A unitary test for asserting the removeFlow method." alt="" coords="5,55,188,80"/>
+<area shape="rect" id="Node000002" href="$classModel.html#abfb2ff6a7566fde6bea104ddd3c556ed" title="Adiciona um novo sistema ao modelo." alt="" coords="259,5,354,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,52,245,30,247,35,152,57"/>
+<area shape="rect" id="Node000003" href="$classModel.html#aa8c013145cae0e5a5a5dd0059ebb0123" title="Gets the iterator pointing to the beginning of the flows in the model." alt="" coords="236,55,377,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,65,222,65,222,70,188,70"/>
+<area shape="rect" id="Node000004" href="$classModel.html#aab07c39ea01c4296097674893858f12f" title="Remove um sistema existente do modelo." alt="" coords="247,104,367,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,77,239,98,238,103,151,83"/>
+</map>

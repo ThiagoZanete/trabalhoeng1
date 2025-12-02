@@ -1,0 +1,11 @@
+<map id="Model::flowsEnd" name="Model::flowsEnd">
+<area shape="rect" id="Node000001" title="Gets the iterator pointing to the end of the flows in the model." alt="" coords="324,55,452,80"/>
+<area shape="rect" id="Node000002" href="$classModelImpl.html#a3c033ed72da1dd33a8292078f0ebb8e9" title="Construtor de cópia." alt="" coords="108,5,276,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="323,54,243,33,244,28,324,49"/>
+<area shape="rect" id="Node000003" href="$classModelImpl.html#aeff4820dad51184595b32161b913b71f" title="Operador de atribuição." alt="" coords="109,55,275,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,70,275,70,275,65,310,65"/>
+<area shape="rect" id="Node000004" href="$unit__model_8cpp.html#afc1883011bf49c69a5b0e14b2e64b1c7" title="A unitary test for asserting the flowsEnd method." alt="" coords="113,104,271,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="324,86,244,107,243,101,323,81"/>
+<area shape="rect" id="Node000005" href="$unit_2main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,104,60,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="99,119,60,119,60,114,99,114"/>
+</map>

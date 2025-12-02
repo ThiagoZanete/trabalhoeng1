@@ -1,0 +1,9 @@
+<map id="Flow::operator=" name="Flow::operator=">
+<area shape="rect" id="Node000001" title="Operador de atribuição." alt="" coords="5,55,132,80"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#acb057e7cd4e9f2af47b0510420b65cac" title="Obtém o nome do fluxo." alt="" coords="183,5,303,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,52,183,32,185,37,115,57"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#a1f3858f90d141807377c2640fb5dd0fc" title="Obtém o sistema de origem." alt="" coords="180,55,305,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,65,166,65,166,70,132,70"/>
+<area shape="rect" id="Node000004" href="$classFlow.html#aff8a0f8ca8dc50d37c92ab7556e172b5" title="Obtém o sistema de destino." alt="" coords="182,104,303,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,77,185,98,183,103,113,83"/>
+</map>
